@@ -15,7 +15,7 @@
     "rbac",
     "mfa"
   ],
-  "author": "Your Name",
+  "author": "Rizky",
   "license": "MIT",
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
