@@ -183,5 +183,3 @@ This version includes:
 ✅ Installation & usage examples  
 ✅ Testing instructions  
 ✅ Contributing section  
-
-You can copy this into your README.md file on GitHub. Let me know if you need more changes! 🚀
