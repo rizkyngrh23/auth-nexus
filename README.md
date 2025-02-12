@@ -1,19 +1,19 @@
-# Auth Nexus 🔐
+# Secure Auth 🔐
 
 A plug-and-play authentication & authorization library for Node.js apps.
 
 ## Installation
 
 ```sh
-npm install auth-nexus
+npm install secure-auth
 ```
 
 ## Usage
 
 ```js
-const AuthNexus = require('auth-nexus');
+const SecureAuth = require('secure-auth');
 
-const auth = new AuthNexus({ secret: 'supersecretkey' });
+const auth = new SecureAuth({ secret: 'supersecretkey' });
 
 // Generate JWT
 const token = auth.generateToken({ username: 'testuser' });
@@ -70,9 +70,9 @@ console.log('Is MFA Code valid?', isMfaValid);
 
 ## API
 
-### `new AuthNexus(options)`
+### `new SecureAuth(options)`
 
-Creates a new instance of AuthNexus.
+Creates a new instance of SecureAuth.
 
 | Option       | Type   | Default | Description                       |
 |--------------|--------|---------|-----------------------------------|
@@ -182,4 +182,4 @@ This version includes:
 ✅ Detailed API documentation  
 ✅ Installation & usage examples  
 ✅ Testing instructions  
-✅ Contributing section  
+✅ Contributing section

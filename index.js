@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const { randomBytes, timingSafeEqual } = require('crypto');
 
-class AuthNexus {
+class SecureAuth {
   constructor(options) {
     if (!options || !options.secret) {
       throw new Error('Secret key is required');
@@ -85,4 +85,4 @@ class AuthNexus {
   }
 }
 
-module.exports = AuthNexus;
+module.exports = SecureAuth;

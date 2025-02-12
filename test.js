@@ -1,6 +1,6 @@
-const AuthNexus = require('./index');
+const SecureAuth = require('./index');
 
-const auth = new AuthNexus({ secret: 'supersecretkey' });
+const auth = new SecureAuth({ secret: 'supersecretkey' });
 
 const token = auth.generateToken({ username: 'testuser' });
 console.log('✅ Generated JWT:', token);
