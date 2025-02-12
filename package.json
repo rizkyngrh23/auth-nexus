@@ -1,0 +1,23 @@
+{
+  "name": "auth-nexus",
+  "version": "1.0.0",
+  "description": "A plug-and-play authentication & authorization library for Node.js apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "authentication",
+    "authorization",
+    "jwt",
+    "oauth2",
+    "api-key",
+    "rbac",
+    "mfa"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
